@@ -8,4 +8,7 @@ new Nightmare()
   .click 'input[name=Submit]'
   .wait()
   .click '#tr_submit_form table.txt_12 button:first-child'
-  .run()
+  .wait(2000)
+  .run (err) ->
+    if err
+       return console.log(err)
