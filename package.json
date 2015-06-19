@@ -1,0 +1,14 @@
+{
+  "name": "kintai",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "nightmare": "^1.8.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
