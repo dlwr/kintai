@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>kintai</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>NODE_PATH</key>
+      <string>/PASS/OF/CLONED/REPOSITORY/kintai/node_modules</string>
+      <key>PATH</key>
+      <string>/usr/local/bin:$PATH</string>
+    </dict>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/coffee</string>
+      <string>/PASS/OF/CLONED/REPOSITORY/kintai.coffee</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Minute</key>
+      <integer>0</integer>
+      <key>Hour</key>
+      <integer>7</integer>
+    </dict>
+    <key>StandardErrorPath</key>
+    <string>/PASS/OF/CLONED/REPOSITORY/err.log</string>
+  </dict>
+</plist>
